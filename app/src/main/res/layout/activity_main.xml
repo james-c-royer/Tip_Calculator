@@ -16,10 +16,21 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="14dp"
         android:layout_marginTop="24dp"
-        android:text=""
+        android:text="0.00"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
         app:layout_constraintTop_toBottomOf="@+id/percentageView" />
+
+    <TextView
+        android:id="@+id/total_bill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="24dp"
+        android:text="0.00"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toBottomOf="@+id/tip_amount" />
 
     <TextView
         android:id="@+id/percentageView"
@@ -27,7 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="14dp"
         android:layout_marginTop="24dp"
-        android:text="PH"
+        android:text="20"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
@@ -38,16 +49,16 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:value="20"
-        app:labelBehavior="gone"
-        app:trackColorInactive="@color/white"
-        app:thumbRadius="10dp"
-        app:thumbStrokeWidth="0dp"
         android:valueFrom="0.0"
         android:valueTo="100.0"
+        app:labelBehavior="gone"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/percentageView"
-        app:layout_constraintTop_toBottomOf="@+id/bill_amount" />
+        app:layout_constraintTop_toBottomOf="@+id/bill_amount"
+        app:thumbRadius="10dp"
+        app:thumbStrokeWidth="0dp"
+        app:trackColorInactive="@color/white" />
 
     <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/materialToolBar"

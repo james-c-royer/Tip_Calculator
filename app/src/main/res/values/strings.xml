@@ -5,9 +5,9 @@
 
     <!--Main Activity strings-->
     <string name="bill">Bill Amount:</string>
-    <string name="percent">Percent: </string>
+    <string name="percent">Percent:</string>
     <string name="tip">Tip:</string>
-    <string name="total">Total: </string>
+    <string name="total">Total:</string>
     <string name="currency_symbol">$</string>
 
     <!--Options Fragment Strings-->
@@ -21,11 +21,11 @@
     </string-array>
     <string-array name="spinner_split">
         <item>No</item>
-        <item>2 ways</item>
-        <item>3 ways</item>
-        <item>4 ways</item>
-        <item>5 ways</item>
-        <item>6 ways</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
     </string-array>
 
     <!-- Help Fragment Strings -->
@@ -40,5 +40,12 @@
     <string name="step_two_instructions">Utilize the slider to select the percent you would like to tip</string>
     <string name="step_three_instructions">Use the "Options" screen to calculate the bill between multiple people</string>
 
+    <string name="options_overview">Overview of the Options:</string>
+    <string name="split_label">Split:  </string>
+    <string name="rounding_label">Rounding:</string>
+    <string name="per_person_label">Per person:</string>
+    <string name="split_instructions">Using the split option will divide the total price between 1-6 people.</string>
+    <string name="rounding_instructions">Rounding will round the bill total, or the tip, to the nearest whole dollar.</string>
+    <string name="per_person_instructions">This is where the per-person total is displayed</string>
 
 </resources>
